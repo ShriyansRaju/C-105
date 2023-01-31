@@ -1,0 +1,43 @@
+body{
+    background-color:#0D3B66;
+}
+
+.myDiv{
+    background-color:#72BF7E;
+    border: 5px ridge #A3E8FD;
+}
+
+h1{
+    color:#A3E8FD;
+}
+
+.btnidentify{
+    background-color:#4DE27E;
+    height: 40px;
+    width:250px;
+    font-size: 22px;
+    border-radius: 50px;
+}
+
+.btnphoto{
+    background-color:#E15554;
+    height: 40px;
+    width:250px;
+    font-size: 22px;
+    border-radius: 50px;
+}
+
+label{
+    color:#A3E8FD;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+p{
+    color: #A3E8FD;
+}
+
+#view{
+    border:7px ridge #A3E8FD;
+    
+}

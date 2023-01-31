@@ -1,0 +1,68 @@
+ 
+<html>
+  <head>
+    <title>Image recognition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <script src="//unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+   <link rel="stylesheet" href="style.css">
+  
+  </head>
+
+  <body>
+  <div class="container">
+    
+    <center>
+      <h1>Image Recognition</h1>
+      <br><br>
+      <div class="myDiv">
+      <p style="font-size: 22px;">Model is trained to identify the following objects: </p>
+      <hr>
+      <b class="nameOfObjects">
+        Phone
+        <hr>
+        Calculator
+        <hr>
+        CD
+        <hr>
+        Coin
+        <hr>
+        Pawn
+        <hr>
+        Pencil
+        <hr>
+        Book
+        <hr>
+        Scissors
+      </b>
+      <hr>
+     </div>
+
+      <label>Webcam View - </label>
+
+      <br><br>
+      <div id="view"></div>
+      <br><br>
+      <button class="btnphoto" onclick="takePhoto()">Take a Photo</button>
+      <br><br>
+      <div id="result"></div>
+      <br><br>
+      <button class="btnidentify" onclick="identifyObject()">Find Out the Object</button>
+      <br><br>
+
+      <p style="font-size: 22px;">Object: <span id="resultObject"></span>  </p>
+      <p style="font-size: 22px;">Accuracy: <span id="resultAccuracy"></span>  </p>
+    </center>
+
+  </div>
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+ 
